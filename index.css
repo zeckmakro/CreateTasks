@@ -1,0 +1,75 @@
+.container{
+/* ENQUANTO A TELA TENHA 720PX OU MAIS ELE MANTEM ESSA CONFIG, ACIMA DISSO COBRE A TELA INTEIRA P RESPONSIVO*/
+    width: 100%;
+    max-width: 720px;
+    margin: 3em auto 6em auto;
+    flex:1;
+
+}
+
+/* headeeeer */
+
+.main-header{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 2em; /* spaçamento debaixo do botao */
+}
+
+.main-header .btn-new-task{
+background-color:rgb(46, 55, 136) ;
+
+}
+
+.main-header .btn-new-task:hover{
+    background-color:rgb(53, 74, 189) ;
+    transition: 0.5s;
+}
+
+.main-header .total-tasks{
+    color: #ffffff;
+    font-size: 1em;
+font-weight: 600;
+
+}
+
+.main-header #count-tasks{
+
+    font-weight: 700;
+    font-size: 1.1em;
+}
+/* TABLE ======================*/
+table{
+
+width: 100%;
+text-align: left;
+border-spacing: 0.0.5rem;
+}
+
+
+table thead th{
+background-color: #fff;
+color:rgb(75, 75, 75);
+padding: 1.2em;
+font-size: 0.9em;
+}
+table tbody tr:first-child{
+
+    margin-top: 24px;
+}
+
+table tbody td{
+    background-color: #fff;
+    color:rgb(75, 75, 75);
+    padding: 0.5em;
+    font-weight: 700;
+}
+
+#loading-message{
+
+text-align: center;
+color: #ffffff;
+margin-top: 1em;
+
+}

@@ -1,0 +1,87 @@
+.modal-background{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(2px);
+
+display: flex;
+align-items: center;
+justify-content:center;
+display: none;
+}
+
+.modal-container{ /*COINTAINER BRANCO */
+
+    width: 100%;
+   max-width: 40vw;
+   height: 54vh;
+   background-color: #fff;
+   border-radius: 1.2em;
+   padding: 2em;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+}
+;.modal-container title{
+    color:#444  ;
+    font-size: large;
+
+}
+
+/* ============== FORM --------*/
+.modal-container form .form-group{
+display: flex;
+flex-direction: column;
+
+}
+.modal-container form .form-group:first-child{
+    margin-bottom: 2em;
+
+}
+
+.modal-container form .form-group label{
+    font-size: 0.8em;
+    font-weight: 800;
+    color: #000000;
+}
+.modal-container form .form-group input:focus{
+
+    box-shadow: inset 0px 0px 0px 2px #818080;
+}
+.modal-container form .form-group input{
+
+    border: 0.2em solid #faebeb;
+    box-shadow: 50px #444; 
+}
+/* ============== buttons  --------*/
+
+.button-modal{
+    align-self: flex-end;
+}
+
+.button-modal .btn-cancel{
+    background-color: rgb(185, 8, 8);
+    color: #fff;
+}
+.button-modal .btn-cancel:hover{
+    background-color: rgb(117, 3, 3);
+    color: #fff;
+    transition: 2ms;
+}
+.button-modal .btn-save{
+    background-color: rgb(54, 160, 6);
+    color: #fff;
+}
+.button-modal .btn-save:hover{
+    background-color: rgb(33, 97, 3);
+    color: #fff;
+}
+
+.modal-background.modal-visible{
+    display: flex;
+} 

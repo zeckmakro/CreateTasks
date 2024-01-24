@@ -1,0 +1,58 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif ;
+}
+
+body {
+
+    width: 100%;
+    height: 100vh;/* TELA INTEIRA*/
+    background-color: #121530;
+
+    display: flex;
+    flex-direction: column; /* ITENS EM COLUNA*/
+    justify-content: space-between; /* espaçar os header body e footer*/
+
+    
+
+    
+}
+
+ a{
+
+    text-decoration: none;
+
+}
+
+i{
+font-size: 1.2em;
+
+}
+
+button, input{ /* botao e a caixa de digitação*/
+
+    border: none; /*se m borda*/
+    outline: none;
+    border-radius: 8px;
+    padding: 12px;
+
+}
+
+button{
+
+    font-weight: 700;
+    color:#ffffff;
+    background-color:rgb(20, 76, 231);
+    cursor: pointer;
+    
+}
+
+/*.fa-trash{
+    width: 1px;
+    height: 20px;
+    color: #a11212;
+    text-align: center;
+}*/
